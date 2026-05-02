@@ -74,6 +74,20 @@ regression_helper(student_scores, y = "final_exam", x = "study_hours")
 plot_distribution(student_scores, "final_exam")
 ```
 
+## Example Dataset
+
+This package includes a sample dataset called `student_performance.csv`
+which contains student-level data such as study hours, exam scores, attendance,
+sleep hours, and GPA.
+
+### Example Usage
+
+data <- read.csv("data/student_performance.csv")
+
+student_summary(data)
+mean_sd(data$exam_score)
+confidence_interval(data$exam_score)
+
 ## Metadata
 
 The metadata for this package is stored in the `DESCRIPTION` file. It includes the package title, version, author, description, license, imports, suggested packages, and encoding information.
@@ -88,4 +102,4 @@ This package uses an S3 class called `student_summary`. It also includes a print
 
 ## Use of AI
 
-AI was used as a support tool to help plan the package structure, draft documentation, and organize the code. The final package topic, editing decisions, and project submission are the responsibility of the student.
+AI was used as a support tool to help plan the package structure, draft documentation, and organize the code. 
