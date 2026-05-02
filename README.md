@@ -2,8 +2,8 @@
 Final Project
 [README.md](https://github.com/user-attachments/files/27306095/README.md)
 ---
-title: "StudentStatsHelper"
-output: github_document
+Title: "StudentStatsHelper"
+Output: github_document
 ---
 
 # StudentStatsHelper
