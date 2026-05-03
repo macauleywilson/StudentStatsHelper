@@ -1,0 +1,48 @@
+---
+title: "Introduction to StudentStatsHelper"
+author: "Macauley Wilson"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to StudentStatsHelper}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
+
+# Introduction
+
+StudentStatsHelper is a small R package designed to help students complete common introductory statistics tasks. It focuses on readable output instead of complicated code.
+
+# Descriptive statistics
+
+```{r eval=FALSE}
+library(StudentStatsHelper)
+student_summary(student_scores$final_exam)
+```
+
+# Confidence interval
+
+```{r eval=FALSE}
+ci_mean(student_scores$final_exam, conf_level = 0.95)
+```
+
+# Hypothesis test
+
+```{r eval=FALSE}
+t_test_helper(student_scores$final_exam, mu = 80)
+```
+
+# Regression
+
+```{r eval=FALSE}
+regression_helper(student_scores, y = "final_exam", x = "study_hours")
+```
+
+# Visualization
+
+```{r eval=FALSE}
+plot_distribution(student_scores, "final_exam")
+```
