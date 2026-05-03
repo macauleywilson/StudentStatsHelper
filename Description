@@ -2,7 +2,7 @@ Package: StudentStatsHelper
 Type: Package
 Title: Simple Statistics Tools for Students
 Version: 0.1.0
-Authors@R: person("Essence", "Burbridge", email = "your.email@example.com", role = c("aut", "cre"))
+Authors@R: person("Macauley", "Wilson", email = "macauleywilson@usf.edu", role = c("aut", "cre"))
 Description: Provides beginner-friendly helper functions for descriptive statistics, confidence intervals, hypothesis testing, regression summaries, grade analysis, and simple visualizations. The package is designed for students who are learning R and introductory statistics.
 License: MIT + file LICENSE
 Encoding: UTF-8
