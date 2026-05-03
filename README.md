@@ -102,4 +102,4 @@ This package uses an S3 class called `student_summary`. It also includes a print
 
 ## Use of AI
 
-AI was used as a support tool to help plan the package structure, draft documentation, and organize the code. 
+AI was used as a support tool to help plan the package structure, and help with organizing code. 
