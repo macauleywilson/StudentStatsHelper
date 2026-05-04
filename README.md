@@ -100,6 +100,10 @@ This package uses an MIT License.
 
 This package uses an S3 class called `student_summary`. It also includes a print method called `print.student_summary()`.
 
+## Blog
+
+https://macwilloprogram.blogspot.com/2026/05/final-project.html
+
 ## Use of AI
 
 AI was used as a support tool to help plan the package structure, and help with organizing code. 
